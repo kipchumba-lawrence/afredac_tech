@@ -1,0 +1,45 @@
+.dashboard-container {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+}
+
+.dashboard-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.glass-card .card-title,
+.glass-card .card-subtitle {
+    color: #ffffff;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.glass-alert {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error {
+    color: #dc3545;
+}
